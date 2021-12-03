@@ -6,10 +6,10 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Sergio",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "Soto",
+  message: " Enthusiast. Developer. Photographer. Middle Distance Runner. ",
   icons: [
     {
       image: "fa-github",
@@ -49,7 +49,7 @@ const mainBody = {
 //         resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 
 const about = {
-  show: true,
+  show: false,
   heading: "About Me",
   imageLink: require("../editable-stuff/hashirshoaeb.png"),
   imageSize: 375,
@@ -124,10 +124,10 @@ const skills = {
 // GET IN TOUCH SECTION
 const getInTouch = {
   show: true,
-  heading: "Get In Touch",
+  heading: "Reach me",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "Hey, want to know more? Write me.",
+  email: "me@srgio.es",
 };
 
 const experiences = {
