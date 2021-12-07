@@ -25,7 +25,7 @@ const mainBody = {
     },
     {
       image: "fa-linkedin",
-      url: "www.linkedin.com/in/sergio-sb/",
+      url: "https://www.linkedin.com/in/sergio-sb/",
     },
   ],
 };
