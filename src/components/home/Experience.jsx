@@ -7,7 +7,7 @@ import {
 } from "react-bootstrap";
 
 const Experience = ({experiences}) => {
-    return (  
+    return (
         <section className="section">
             <Container>
                 <Jumbotron fluid className="bg-white">
@@ -26,5 +26,5 @@ const Experience = ({experiences}) => {
         </section>
     );
 }
- 
+
 export default Experience;
