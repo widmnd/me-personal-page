@@ -12,6 +12,10 @@ const mainBody = {
   message: " Enthusiast. Developer. Photographer. Middle Distance Runner. ",
   icons: [
     {
+      image: "fa-linkedin",
+      url: "https://www.linkedin.com/in/sergio-sb/",
+    },
+    {
       image: "fa-github",
       url: "https://github.com/widmnd",
     },
@@ -24,9 +28,9 @@ const mainBody = {
       url: "https://www.instagram.com/sergiosbphoto/",
     },
     {
-      image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/sergio-sb/",
-    },
+      image: "fa-strava",
+      url: "https://www.strava.com/athletes/26764420"
+    }
   ],
 };
 
