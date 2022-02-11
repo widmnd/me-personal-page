@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useCallback } from "react";
 import Pdf from "../../editable-stuff/resume.pdf";
 
 import axios from "axios";
@@ -12,12 +12,15 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
   const [showPic, setShowPic] = React.useState(Boolean(link));
 
   React.useEffect(() => {
-    if (link && !pictureLinkRegex.test(link)) {
-      handleRequest();
-    } else {
-      setProfilePicUrl(link);
+    function fetchPicture() {
+      if (link && !pictureLinkRegex.test(link)) {
+        handleRequest();
+      } else {
+        setProfilePicUrl(link);
+      }
     }
-  }, [link]);
+    fetchPicture() 
+  }, [link]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const handleRequest = async () => {
     const instaLink = "https://www.instagram.com/";
