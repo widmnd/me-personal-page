@@ -1,9 +1,9 @@
 FROM node:14 as build-deps
 WORKDIR /usr/src/app
-COPY package.json yarn.lock ./
-RUN yarn install
+COPY package.json package-lock.json ./
+RUN npm install
 COPY . ./
-RUN yarn build
+RUN npm run build
 
 FROM nginx:latest
 COPY --from=build-deps /usr/src/app/build /usr/share/nginx/html
