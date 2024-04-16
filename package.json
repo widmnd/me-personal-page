@@ -10,11 +10,10 @@
     "url": "https://github.com/srgio-es"
   },
   "dependencies": {
-    "axios": "^0.21.2",
+    "axios": "^0.28.0",
     "bootstrap": "^4.5.2",
     "gh-pages": "^2.2.0",
     "jquery": "^3.5.1",
-    "node-sass": "^7",
     "popper.js": "^1.16.1",
     "prop-types": "^15.7.2",
     "react": "^16.14.0",
@@ -51,5 +50,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "sass": "^1.75.0"
   }
 }
