@@ -1,7 +1,10 @@
 import React from "react";
-import Typist from "react-typist";
+import { TypeAnimation } from 'react-type-animation';
+
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
+
+
 
 const MainBody = React.forwardRef(
   ({ gradient, title, message, icons }, ref) => {
@@ -20,10 +23,17 @@ const MainBody = React.forwardRef(
           <h1 ref={ref} className="display-1">
             {title}
           </h1>
-          <Typist className="lead typist" cursor={{ show: false }}>
-            {" "}
-            {message}
-          </Typist>
+
+          <TypeAnimation
+            sequence={[
+              message,
+              1000,
+            ]}
+            speed={50}
+            repeat={Infinity}
+            style={{ fontSize: '1.5em' }}
+          />
+
           <div className="p-5">
             {icons.map((icon, index) => (
               <a
