@@ -1,5 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
+import { SpeedInsights } from "@vercel/speed-insights/react"
+
 import {
   navBar,
   mainBody,
@@ -26,6 +28,7 @@ import Experience from "./components/home/Experience";
 const Home = React.forwardRef((props, ref) => {
   return (
     <>
+      <SpeedInsights/>
       <MainBody
         gradient={mainBody.gradientColors}
         title={`${mainBody.firstName} ${mainBody.middleName} ${mainBody.lastName}`}

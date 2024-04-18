@@ -10,6 +10,7 @@
     "url": "https://github.com/srgio-es"
   },
   "dependencies": {
+    "@vercel/speed-insights": "^1.0.10",
     "autoprefixer": "10.4.19",
     "axios": "^0.28.0",
     "bootstrap": "^5.2.0-beta1",
