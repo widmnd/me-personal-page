@@ -1,6 +1,6 @@
 import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
 import { SpeedInsights } from "@vercel/speed-insights/react"
+import { BrowserRouter, Route } from "react-router-dom";
 
 import {
   navBar,
