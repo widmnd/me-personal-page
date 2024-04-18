@@ -28,7 +28,6 @@ import Experience from "./components/home/Experience";
 const Home = React.forwardRef((props, ref) => {
   return (
     <>
-      <SpeedInsights/>
       <MainBody
         gradient={mainBody.gradientColors}
         title={`${mainBody.firstName} ${mainBody.middleName} ${mainBody.lastName}`}
@@ -73,6 +72,8 @@ const Home = React.forwardRef((props, ref) => {
           softSkills={skills.softSkills}
         />
       )}
+
+<SpeedInsights/>
       
     </>
   );
