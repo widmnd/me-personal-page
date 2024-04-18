@@ -1,5 +1,7 @@
 import React from "react";
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import { BrowserRouter, Route } from "react-router-dom";
+
 import {
   navBar,
   mainBody,
@@ -70,6 +72,8 @@ const Home = React.forwardRef((props, ref) => {
           softSkills={skills.softSkills}
         />
       )}
+
+<SpeedInsights/>
       
     </>
   );
