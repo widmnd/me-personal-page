@@ -9,5 +9,4 @@ it("renders without crashing", () => {
 
   const root = createRoot(container); // createRoot(container!) if you use TypeScript
   root.render(<App tab="home" />);
-
 });
