@@ -10,7 +10,7 @@
     "url": "https://github.com/srgio-es"
   },
   "dependencies": {
-    "autoprefixer": "10.4.19",
+    "autoprefixer": "10.4.20",
     "axios": "^1.7.5",
     "bootstrap": "^5.2.0-beta1",
     "gh-pages": "^6.1.1",
