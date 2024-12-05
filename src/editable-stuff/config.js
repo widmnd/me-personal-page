@@ -1,6 +1,6 @@
 // Navigation Bar SECTION
 const navBar = {
-  show: true,
+  show:  false,
 };
 
 // Main Body SECTION
@@ -101,7 +101,7 @@ const skills = {
   heading: "Skills",
   hardSkills: [
     { name: "Siemens Teamcenter", value: 98},
-    { name: "Dassault Systemes 3DEXPERIENCE, value: 95"},
+    { name: "Dassault Systemes 3DEXPERIENCE", value: 95},
     { name: "Java", value: 90},
     { name: "Python", value: 80 },
     { name: "SQL", value: 75 },
