@@ -1,6 +1,6 @@
 // Navigation Bar SECTION
 const navBar = {
-  show: false,
+  show: true,
 };
 
 // Main Body SECTION
@@ -100,14 +100,14 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
+    { name: "Siemens Teamcenter", value: 98},
+    { name: "Dassault Systemes 3DEXPERIENCE, value: 95"},
+    { name: "Java", value: 90},
+    { name: "Python", value: 80 },
     { name: "SQL", value: 75 },
     { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "C/C++", value: 50 },
+    { name: "JavaScript", value: 70 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
